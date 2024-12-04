@@ -1,0 +1,99 @@
+.image-row {
+display: flex; /* Arrage items in a role */
+gap: 10px; /* optiomal: space between images */
+justify-content: center; /* center images on the page */
+} 
+
+.image {
+  width: 45%; /* Adjust as needed to fit images in arow */
+  height: auto; /* Keeps the aspect ratio */
+}
+
+.button-container {
+  display: flex;
+  gap: 20px; /* Space between buttons */
+  justify-content: center; /* Center the buttons */
+  margin-top: 20px;
+}
+
+.button {
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Sign Up Button Styling */
+.sign-up {
+  background-color: #4CAF50; /* Green background */
+}
+
+.sign-up:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Sign In Button Styling */
+.sign-in {
+  background-color: #008CBA; /* Blue background */
+}
+
+.sign-in:hover {
+  background-color: #007bb5; /* Darker blue on hover */
+}
+
+.form-container {
+  display: flex;
+  gap: 40px; /* Space between the forms */
+  justify-content: center; /* Center the forms on the page */
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between form fields */
+  width: 300px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.button {
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+/* Sign-Up Button Styling */
+.sign-up {
+  background-color: #4CAF50; /* Green background */
+}
+
+.sign-up:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Sign-In Button Styling */
+.sign-in {
+  background-color: #008CBA; /* Blue background */
+}
+
+.sign-in:hover {
+  background-color: #007bb5; /* Darker blue on hover */
+}

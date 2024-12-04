@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sign-in & sign-up</title>
+    <body style="background-color: rgb(1, 1, 41); color: white;"  ></body>
+    <script src="dorc3"></script>
+    
+    
+  </head>>
+  <body>
+    <center>
+    <h1>Gentle Trade</h1>
+    <h2 style="font-size: 15px;">Sign in to GT.FX</h2>
+    <hr />
+    <p> Sign into Gentle Trade. <br />If you dont have an account; register an account with us!!
+     <hr />
+      <img src="img/five.jpg" alt="traders" width="100%" height="auto"
+    <br />
+   <hr />
+    <p style="font-size: 20px;">Sign in or Sign up to get started</p>
+    <hr />
+    <div class="form-container">
+      <!-- Sign-Up Form -->
+      <form class="sign-up-form">
+          <label for="username-signup">Username:</label>
+          <input type="text" id="username-signup" placeholder="Enter your username" required>
+  <br />
+          <label for="email-signup" style="padding-right: 27px;">Email:</label>
+          <input type="email" id="email-signup" placeholder="Enter your email" required>
+  <br />
+          <label for="password-signup" style="padding: 2px;">Password:</label>
+          <input type="password" id="password-signup" placeholder="Enter your password" required>
+  <br />
+          <a href="dragon.html" class="button sign-up">Sign Up</a>
+      </form>
+  <hr />
+      <!-- Sign-In Form -->
+      <form class="sign-in-form">
+          <label for="username-signin">Username:</label>
+          <input type="text" id="username-signin" placeholder="Enter your username" required>
+  <br />
+          <label for="password-signin" style="padding: 2px;">Password:</label>
+          <input type="password" id="password-signin" placeholder="Enter your password" required>
+  <br />
+          <a href="dragon.html" class="button sign-in">Sign In</a>
+      </form>
+  </div>
+<hr />
+<P style="background-color: black;"> Accounts opened with Gentle Trade are fully authenticated and accessible only by the registered client to ensure maximum security. For your protection, please save your login and sign-up information securely, as it will be required for future access.</P>
+    </center>
+    </body>
